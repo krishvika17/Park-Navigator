@@ -64,7 +64,6 @@ Smart-Parking-Management-System
 ├── LICENSE
 └── README.md
 ```
-
 ---
 
 ## Working
