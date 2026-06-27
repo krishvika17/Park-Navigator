@@ -37,11 +37,32 @@ Smart Parking Management System is a console-based C++ application that simulate
 Smart-Parking-Management-System
 │
 ├── include/
+│   ├── Models.h
+│   ├── ParkingGraph.h
+│   ├── BFSNavigator.h
+│   ├── FeeCalculator.h
+│   ├── FileHandler.h
+│   └── ParkingManager.h
+│
 ├── src/
+│   ├── main.cpp
+│   ├── ParkingGraph.cpp
+│   ├── BFSNavigator.cpp
+│   ├── FeeCalculator.cpp
+│   ├── FileHandler.cpp
+│   └── ParkingManager.cpp
+│
 ├── data/
+│   ├── parking_history.txt
+│   └── slot_state.txt
+│
 ├── docs/
-├── README.md
-└── .gitignore
+│   ├── screenshots/
+│   └── parking_graph.png
+│
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ---
