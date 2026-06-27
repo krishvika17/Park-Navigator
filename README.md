@@ -1,23 +1,110 @@
-# Parking-Optimisation-System
+# Smart Parking Management System
 
-**Project Description:**
+## Overview
 
-The Smart Parking Optimization System is a C++ application that models a parking lot using a graph and efficiently allocates parking slots. It uses Breadth-First Search (BFS) to identify the nearest available slot from a given entry point, minimizing search time and improving allocation efficiency.
-The system supports real-time operations such as parking a vehicle, freeing a slot, and displaying current slot occupancy through a simple command-line interface.
+Smart Parking Management System is a console-based C++ application that simulates the operation of a parking facility. The system allocates the nearest compatible parking slot using the Breadth-First Search (BFS) algorithm on a graph-based parking layout. It also manages vehicle entry and exit, parking fee calculation, parking status, and persistent storage of parking records.
 
-**Key Highlights:**
+---
 
-- Modeled parking layout using graph (adjacency list) representation
-- Implemented BFS traversal to find nearest available parking slot
-- Enabled real-time updates for parking and vacancy management
-- Designed a clean, modular and interactive CLI-based system
-- Focused on efficient data handling using queues and vectors
+## Features
 
-**Working:**
+- Register vehicles (Car, Bike, EV)
+- Multiple entry gates
+- Nearest slot allocation using BFS
+- Vehicle type-based slot allocation
+- Parking ticket generation
+- Parking fee calculation
+- Parking status display
+- Vehicle exit and slot release
+- File-based data persistence
 
-- The parking area is represented as a graph where each node corresponds to a parking slot.
-- Connections between nodes define possible movement paths within the parking lot.
-- When a user requests parking, BFS is applied from the entry point to locate the nearest free slot.
-- Once allocated, the slot is marked as occupied.
-- Users can also vacate slots, updating availability dynamically.
-- The system continuously maintains and displays the current status of all slots.
+---
+
+## Technologies Used
+
+- C++17
+- Object-Oriented Programming
+- Graph (Adjacency List)
+- Breadth-First Search (BFS)
+- STL (`vector`, `queue`, `unordered_map`)
+- File Handling (`fstream`)
+
+---
+
+## Project Structure
+
+```
+Smart-Parking-Management-System
+│
+├── include/
+├── src/
+├── data/
+├── docs/
+├── README.md
+└── .gitignore
+```
+
+---
+
+## Working
+
+1. Register a vehicle and select an entry gate.
+2. BFS searches the graph to locate the nearest compatible free parking slot.
+3. The selected slot is allocated and a parking ticket is generated.
+4. On exit, the parking duration and fee are calculated.
+5. The parking slot is released and the parking history is updated.
+
+---
+
+## Sample Output
+
+The `docs/screenshots` directory contains sample outputs for:
+
+- Vehicle registration
+- Nearest slot allocation
+- Parking ticket
+- Parking status
+- Exit receipt
+
+---
+
+## Build and Run
+
+Compile:
+
+```bash
+g++ -std=c++17 -Iinclude src/*.cpp -o build/parking
+```
+
+Run:
+
+```bash
+./build/parking
+```
+
+---
+
+## Concepts Demonstrated
+
+- Object-Oriented Programming
+- Graph Representation
+- Breadth-First Search
+- Queue-based Traversal
+- Hash Map (`unordered_map`)
+- File Handling
+- Modular Software Design
+
+---
+
+## Future Scope
+
+- Graphical user interface
+- Database integration
+- Online parking reservation
+- Configurable parking layout
+
+---
+
+## Author
+
+**Krishvika**
