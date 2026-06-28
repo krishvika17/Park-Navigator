@@ -1,0 +1,45 @@
+# Build files
+
+build/
+bin/
+Debug/
+Release/
+
+# Executables
+
+*.exe
+*.out
+
+# Object files
+
+*.o
+*.obj
+
+# Static and shared libraries
+
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# CMake
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE files
+
+.vscode/
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
