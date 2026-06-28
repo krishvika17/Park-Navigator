@@ -1,8 +1,8 @@
-# Smart Parking Management System
+# SmartPark Navigator
 
 ## Overview
 
-Smart Parking Management System is a console-based C++ application that simulates the operation of a parking facility. The system allocates the nearest compatible parking slot using the Breadth-First Search (BFS) algorithm on a graph-based parking layout. It also manages vehicle entry and exit, parking fee calculation, parking status, and persistent storage of parking records.
+SmartPark Navigator is a Smart Parking Management System which is a console-based C++ application that simulates the operation of a parking facility. The system allocates the nearest compatible parking slot using the Breadth-First Search (BFS) algorithm on a graph-based parking layout. It also manages vehicle entry and exit, parking fee calculation, parking status, and persistent storage of parking records.
 
 ---
 
@@ -34,7 +34,7 @@ Smart Parking Management System is a console-based C++ application that simulate
 ## Project Structure
 
 ```
-Smart-Parking-Management-System
+SmartPark Navigator
 │
 ├── include/
 │   ├── Models.h
