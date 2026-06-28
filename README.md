@@ -1,4 +1,4 @@
-# SmartPark Navigator
+# Park Navigator
 
 ## Overview
 
@@ -34,7 +34,7 @@ SmartPark Navigator is a Smart Parking Management System which is a console-base
 ## Project Structure
 
 ```
-SmartPark Navigator
+Park Navigator
 │
 ├── include/
 │   ├── Models.h
