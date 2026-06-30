@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Smart Parking Management System which is a console-based C++ application that simulates the operation of a parking facility. The system allocates the nearest compatible parking slot using the Breadth-First Search (BFS) algorithm on a graph-based parking layout. It also manages vehicle entry and exit, parking fee calculation, parking status, and persistent storage of parking records.
+This project is about a Smart Parking Management System which is a console-based C++ application that simulates the operation of a parking facility. The system allocates the nearest compatible parking slot using the Breadth-First Search (BFS) algorithm on a graph-based parking layout. It also manages vehicle entry and exit, parking fee calculation, parking status, and persistent storage of parking records.
 
 ---
 
